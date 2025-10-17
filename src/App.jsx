@@ -29,12 +29,12 @@ export default function App() {
         </section>
 
         <section className="mt-16">
-          <h2 className="text-3xl font-bold mb-8 text-gray-700">Estruturas</h2>
+          <h2 className="text-3xl font-bold text-gray-700 pb-4 mb-4 border-b-4 border-yellow-300/50 border-double">Estruturas</h2>
           <Estruturas />
         </section>
 
         <section className="mt-16">
-          <h2 className="text-3xl font-bold mb-8 text-gray-700">Serviços no Clube</h2>
+          <h2 className="text-3xl font-bold text-gray-700 pb-4 mb-4 border-b-4 border-yellow-300/50 border-double">Serviços no Clube</h2>
           <Carrossel />
         </section>
 
