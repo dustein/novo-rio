@@ -34,7 +34,7 @@ export function Carrossel() {
   return (
     
         
-          <div className="relative max-w-md mx-auto">
+          <div className="relative max-w-md mx-auto w-fit">
     
           {/* Card atual */}
           <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow">

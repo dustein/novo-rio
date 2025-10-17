@@ -17,9 +17,9 @@ export default function App() {
 
       <Header />
 
-      <main className="flex-grow container mx-auto px-4 py-4 text-center">
+      <main className="flex-grow container mx-auto px-2 py-4 text-center">
 
-        <section className="bg-white p-8 rounded-lg shadow-lg">
+        <section className="bg-white p-1 rounded-lg shadow-lg">
           <Hero />
         </section>
 

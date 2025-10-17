@@ -4,16 +4,19 @@ export function Local() {
     // <div className="grid sm:grid-cols-2 lg:grid-cols-3 justify-items-center gap-5 mt-16">
     <div className="flex flex-col items-center">
       
-      <div className="grid sm:grid-cols-2 gap-5 mb-8">
+      <div className="text-sm grid sm:grid-cols-2 gap-5 mb-8">
 
         <div className="bg-blue-800 text-gray-100 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow">
           <h2 className="text-lg font-bold p-1 mb-4 border-b">Contatos</h2>
-          <div className="leading-8">
-            Telefones Secretaria:
-            2490-2315 |
+          <div className="leading-12">
+            {/* <img className="mr-2 w-8 inline bg-yellow-400 p-0.5 rounded-xl" src="../../../dist/assets/imagens/smartphone-phone-call-svgrepo-com.svg" alt="" /> */}
+            Telefones:
+            <span className="font-bold">  2490-2315 |
             2490-1393 |
-            2490-7038
-            <p>Endereço: Av. Miguel Antônio Fernandes, 15</p>
+            2490-7038</span>
+            <p>
+              <img className="mr-2 w-8 inline" src="../../../dist/assets/imagens/location-1-svgrepo-com.svg" alt="" />
+              Endereço: Av. Miguel Antônio Fernandes, 15</p>
             <p>Recreio dos Bandeirantes, Rio de Janeiro - RJ, 22790-682</p>
           </div>
         </div>
